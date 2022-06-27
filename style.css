@@ -1,0 +1,104 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+:root {
+  --light-grey: #e0e0e0;
+  --dark-grey: #606060;
+  --red-bg: #da1e5d;
+}
+
+/* button styles */
+.layout {
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  color: #606060;
+  font-size: 20px;
+}
+
+/* nav gap  */
+#nav {
+  padding-bottom: 10px;
+}
+
+/* onclick layout buttons active styles  */
+.root #nav .active {
+  background-color: black;
+  color: white;
+}
+
+/* layout 1 styles  */
+.card {
+  background-color: #da1e5d;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+}
+
+/* layout 2 styles  */
+.root .container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  text-align: center;
+}
+
+.card2 {
+  background-color: #da1e5d;
+  margin: 5px;
+  padding: 10px;
+  color: white;
+  height: 250px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+/* layout 3 styles  */
+.root .container3 {
+  display: grid;
+  grid-template-rows: 60px 100px 60px 60px;
+  grid-template-columns: repeat(3, 1fr) 10px;
+  grid-gap: 20px;
+  text-align: center;
+  color: white;
+}
+
+.c1 {
+  border-radius: 10px;
+  grid-column: 1/-1;
+  background-color: #da1e5d;
+}
+
+.c2 {
+  border-radius: 10px;
+  width: 100px;
+  grid-row: 2/9;
+  /* grid-column: 3/-5; */
+  background-color: #da1e5d;
+}
+
+.c3 {
+  border-radius: 10px;
+  margin-top: 25px;
+  height: 300px;
+  /* grid-row: 2/3; */
+  grid-column: 3/2;
+  background-color: #da1e5d;
+}
+
+.c4 {
+  border-radius: 10px;
+  margin-left: 330px;
+  width: 100px;
+  grid-row: 2/9;
+  grid-column: 3/5;
+  background-color: #da1e5d;
+}
+
+.c5 {
+  border-radius: 10px;
+  grid-column: 1/-1;
+  background-color: #da1e5d;
+}
